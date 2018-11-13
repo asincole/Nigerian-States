@@ -86,7 +86,31 @@ let NigianStates: Array<State> = [
             { name: "Uyo" }
         ]
     },
-    { name: "Anambra", capital: "Awka" },
+    {
+        name: "Anambra", capital: "Awka", LGAs: [
+            { name: "Aguata" },
+            { name: "Awka North" },
+            { name: "Awka South" },
+            { name: "Anambra East" },
+            { name: "Anambra West" },
+            { name: "Anaocha" },
+            { name: "Ayamelum" },
+            { name: "Dunukofia" },
+            { name: "Ekwusigo" },
+            { name: "Idemili North" },
+            { name: "Idemili South" },
+            { name: "Ihiala" },
+            { name: "Njikoka" },
+            { name: "Nnewi North" },
+            { name: "Nnewi South" },
+            { name: "Ogbaru" },
+            { name: "Onitsha North" },
+            { name: "Onitsha South" },
+            { name: "Orumba North" },
+            { name: "Orumba South" },
+            { name: "Oyi" }
+        ]
+    },
     { name: "Bauchi", capital: "Bauchi" },
     { name: "Bayelsa", capital: "Yenagoa" },
     { name: "Benue", capital: "Makurdi" },
