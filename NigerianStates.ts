@@ -5,7 +5,6 @@ interface State {
 
 }
 
-
 let NigianStates: Array<State> = [
     {
         name: "Abia", capital: "Umuahia", LGAs: [
@@ -52,7 +51,41 @@ let NigianStates: Array<State> = [
             { name: "Yola South" }
         ]
     },
-    { name: "Akwa Ibom", capital: "Uyo" },
+    {
+        name: "Akwa Ibom", capital: "Uyo", LGAs: [
+            { name: "Abak" },
+            { name: "Eastern Obolo" },
+            { name: "Eket" },
+            { name: "Esit-Eket" },
+            { name: "Essien Udim" },
+            { name: "Etim-Ekpo" },
+            { name: "Etinan" },
+            { name: "Ibeno" },
+            { name: "Ibesikpo-Asutan" },
+            { name: "Ibiono-Ibom" },
+            { name: "Ika" },
+            { name: "Ikono" },
+            { name: "Ikot Abasi" },
+            { name: "Ikot Ekpene" },
+            { name: "Ini" },
+            { name: "Itu" },
+            { name: "Mbo" },
+            { name: "Mkpat-Enin" },
+            { name: "Nsit-Atai" },
+            { name: "Nsit-Ibom" },
+            { name: "Nsit-Ubium" },
+            { name: "Obot-Akara" },
+            { name: "Okobo" },
+            { name: "Onna" },
+            { name: "Oron" },
+            { name: "Oruk Anam" },
+            { name: "Ukanafun" },
+            { name: "Udung-Uko" },
+            { name: "Uruan" },
+            { name: "Urue-Offong/Oruko" },
+            { name: "Uyo" }
+        ]
+    },
     { name: "Anambra", capital: "Awka" },
     { name: "Bauchi", capital: "Bauchi" },
     { name: "Bayelsa", capital: "Yenagoa" },
