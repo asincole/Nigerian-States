@@ -6,7 +6,6 @@ interface State {
 }
 
 
-
 let NigianStates: Array<State> = [
     {
         name: "Abia", capital: "Umuahia", LGAs: [
@@ -28,7 +27,31 @@ let NigianStates: Array<State> = [
             { name: "Umuahia South" }
         ]
     },
-    { name: "Adamawa", capital: "Yola" },
+    {
+        name: "Adamawa", capital: "Yola", LGAs: [
+            { name: "Demsa" },
+            { name: "Fufore" },
+            { name: "Ganye" },
+            { name: "Girei" },
+            { name: "Gombi" },
+            { name: "Guyuk" },
+            { name: "Hong" },
+            { name: "Jada" },
+            { name: "Lamurde" },
+            { name: "Madagali" },
+            { name: "Maiha" },
+            { name: "Mayo-Belwa" },
+            { name: "Michika" },
+            { name: "Mubi North" },
+            { name: "Mubi South" },
+            { name: "Numan" },
+            { name: "Shelleng" },
+            { name: "Song" },
+            { name: "Toungo" },
+            { name: "Yola North" },
+            { name: "Yola South" }
+        ]
+    },
     { name: "Akwa Ibom", capital: "Uyo" },
     { name: "Anambra", capital: "Awka" },
     { name: "Bauchi", capital: "Bauchi" },
