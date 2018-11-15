@@ -143,6 +143,6 @@ let NigianStates: Array<State> = [
     { name: "Taraba", capital: "Jalingo" },
     { name: "Yobe", capital: "Damaturu" },
     { name: "Zamfara", capital: "Gusau" },
-    { name: "FCT", capital: "Abuja" }
+    { name: "Federal Capital Territory", capital: "Abuja" }
 ]
 
