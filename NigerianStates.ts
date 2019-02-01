@@ -111,7 +111,30 @@ let NigianStates: Array<State> = [
             { name: "Oyi" }
         ]
     },
-    { name: "Bauchi", capital: "Bauchi" },
+    {
+        name: "Bauchi", capital: "Bauchi", LGAs: [
+            { name: "Alkaleri" },
+            { name: "Bauchi" },
+            { name: "Bogoro" },
+            { name: "Damban" },
+            { name: "Darazo" },
+            { name: "Dass" },
+            { name: "Gamawa" },
+            { name: "Ganjuwa" },
+            { name: "Giade" },
+            { name: "Itas Gadau" },
+            { name: "Jama'are" },
+            { name: "Katagum" },
+            { name: "Kirfi" },
+            { name: "Misau" },
+            { name: "Ningi" },
+            { name: "Shira" },
+            { name: "Tafawa Balewa" },
+            { name: "Toro" },
+            { name: "Warji" },
+            { name: "Zaki" }
+        ]
+    },
     { name: "Bayelsa", capital: "Yenagoa" },
     { name: "Benue", capital: "Makurdi" },
     { name: "Borno", capital: "Maiduguri" },
