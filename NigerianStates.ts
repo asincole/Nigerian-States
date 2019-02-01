@@ -139,7 +139,7 @@ let NigianStates: Array<State> = [
         name: "Bayelsa", capital: "Yenagoa", LGAs: [
             { name: "Brass" },
             { name: "Ekeremor" },
-            { name: "Kolokuma\/Opokuma" },
+            { name: "Kolokuma Opokuma" },
             { name: "Nembe" },
             { name: "Ogbia" },
             { name: "Sagbama" },
