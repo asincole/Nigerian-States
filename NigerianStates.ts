@@ -147,7 +147,33 @@ let NigianStates: Array<State> = [
             { name: "Yenagoa" }
         ]
     },
-    { name: "Benue", capital: "Makurdi" },
+    {
+        name: "Benue", capital: "Makurdi", LGAs: [
+            { name: "Agatu" },
+            { name: "Apa" },
+            { name: "Ado" },
+            { name: "Buruku" },
+            { name: "Gboko" },
+            { name: "Guma" },
+            { name: "Gwer East" },
+            { name: "Gwer West" },
+            { name: "Katsina-Ala" },
+            { name: "Konshisha" },
+            { name: "Kwande" },
+            { name: "Logo" },
+            { name: "Makurdi" },
+            { name: "Obi" },
+            { name: "Ogbadibo" },
+            { name: "Ohimini" },
+            { name: "Oju" },
+            { name: "Okpokwu" },
+            { name: "Oturkpo" },
+            { name: "Tarka" },
+            { name: "Ukum" },
+            { name: "Ushongo" },
+            { name: "Vandeikya" }
+        ]
+    },
     { name: "Borno", capital: "Maiduguri" },
     { name: "Cross River", capital: "Calabar" },
     { name: "Delta", capital: "Asaba" },
