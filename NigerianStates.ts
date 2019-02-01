@@ -205,7 +205,30 @@ let NigianStates: Array<State> = [
             { name: "Shani" }
         ]
     },
-    { name: "Cross River", capital: "Calabar" },
+    {
+        name: "Cross River", capital: "Calabar", LGAs: [
+            { name: "Abi" },
+            { name: "Abuochichie" },
+            { name: "Akamkpa" },
+            { name: "Akpabuyo" },
+            { name: "Bakassi" },
+            { name: "Bekwara" },
+            { name: "Biasi" },
+            { name: "Boki" },
+            { name: "Calabar-Municipal" },
+            { name: "Calabar-South" },
+            { name: "Etunk" },
+            { name: "Ikom" },
+            { name: "Obanliku" },
+            { name: "Obubra" },
+            { name: "Obudu" },
+            { name: "Odukpani" },
+            { name: "Ogoja" },
+            { name: "Ugep-North" },
+            { name: "Yakurr" },
+            { name: "Yala" }
+        ]
+    },
     { name: "Delta", capital: "Asaba" },
     { name: "Ebonyi", capital: "Abakaliki" },
     { name: "Edo", capital: "Benin" },
