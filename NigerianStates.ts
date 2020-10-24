@@ -278,7 +278,22 @@ let NigianStates: Array<State> = [
             { name: "Warri-South" }
         ]
     },
-    { name: "Ebonyi", capital: "Abakaliki" },
+    { name: "Ebonyi", capital: "Abakaliki", LGAs: [
+            { name: "Abakaliki" },
+            { name: "Afikpo-North" },
+            { name: "Afikpo-South" },
+            { name: "Ebonyi" },
+            { name: "Ezaa-North" },
+            { name: "Ezaa-South" },
+            { name: "Ikwo" },
+            { name: "Ishielu" },
+            { name: "Ivo" },
+            { name: "Izzi" },
+            { name: "Ohaukwu" },
+            { name: "Ohaozara" },
+            { name: "Onicha" }
+        ]
+    },
     { name: "Edo", capital: "Benin" },
     { name: "Ekiti", capital: "Ado Ekiti" },
     { name: "Enugu", capital: "Enugu" },
